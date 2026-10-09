@@ -102,7 +102,7 @@ export default function App() {
     selectedCategories,
     selectedAreas,
     selectedIngredients,
-    selectedTags,
+    selectedTags
   ]);
 
   const handleCategoryChange = (category) => {
@@ -167,7 +167,7 @@ export default function App() {
     selectedCategories,
     selectedAreas,
     selectedIngredients,
-    selectedTags,
+    selectedTags
   ]);
 
   return (
