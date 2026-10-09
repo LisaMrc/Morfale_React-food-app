@@ -1,18 +1,36 @@
-# Welcome to Morfale
-## Food at your fingertips
--> Get your favorite recipes with one click and no pressure
--> Watch tutorials or have the written version depending on what are your needs
--> Save your favorite meals
+# 🐺 Morfale
+Morfale est un site de cuisine où il est possible de filtrer toutes les recettes en fonction de leurs ingrédients, origine géographique et catégories. Utilisant les données de l’API TheMealsDB, mon but était de rendre le site le plus propre possible, à l’inverse de ceux qu’on trouve en ligne qui sont souvent remplis de couleurs, pop-ups et pubs. Pour cela, j’ai créé l’identité visuelle et le logo, puis codé le site en react.js. Ce template a vraiment été très pratique pour y incorporer plus facilement les éléments à la manière d’un puzzle. Il a aussi permis de coder un système de favoris en cache, qui permet de sauvegarder ses recettes favorites sans passer par le (souvent long) processus de créer un compte.
 
-Enjoy ! 🥗
 
-Used :
-- React router
-____
-# React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Outils
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
-Currently, two official plugins are available:
+## ✨ Features
+Ce que vous pouvez faire sur Morfale.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Lire des recettes
+- Rechercher et filtrer des recettes (les filtres et la recherche sont dynamiques et peuvent s'ajouter entre eux)
+- Profiter d'une UI simple, claire et d'un site responsive
+- Sélectionner une recette en favori en cliquant sur le coeur. Les recettes favorites sont regroupées dans une page dédiée
+- Reload la page et garder vos informations (filtres, favoris)
+
+
+## 👩🏻‍🍳 Mon Processus
+1. Maquettage Figma
+2. Setup du projet React
+3. Création des composants
+4. Travail sur les filtres & la recherche
+5. Ajout d'un carrousel
+6. Ajout de la page favorites
+7. Travail sur le cache
+8. Nettoyage et relecture du code
+9. Launch sur Vercel
+
+
+## 💭 Améliorations
+- Supprimer le JSON et brancher TheMealDB
+- Ajouter un système de comptes avec Supabase pour une conservation des données plus longue
+- Ajouter des badges sur un profil utilisateur en fonction des recettes sélectionnées
+- Dark mode
