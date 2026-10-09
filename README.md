@@ -34,3 +34,8 @@ Ce que vous pouvez faire sur Morfale.
 - Ajouter un système de comptes avec Supabase pour une conservation des données plus longue
 - Ajouter des badges sur un profil utilisateur en fonction des recettes sélectionnées
 - Dark mode
+
+## ⬇️ Installation & lancement
+ 1. Cloner le repo
+ 2. Installer les dépendances avec npm install
+ 3. Lancer avec npm run dev
