@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar({}) {
   return (
@@ -13,10 +14,10 @@ export default function Navbar({}) {
         </a>
       </div>
       <div className="navbar-right">
-        <a href="/favorites" className="nav-item">
+        <Link to="/favorites" className="nav-item">
           <span className="nav-text">Favorite recipes</span>
-          <img src="/assets/Icons/heart.svg" alt="Heart Icon"></img>
-        </a>
+          <img src="/assets/Icons/heart.svg" alt="Heart Icon" />
+        </Link>
       </div>
     </nav>
   );
